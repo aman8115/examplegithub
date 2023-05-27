@@ -1,0 +1,55 @@
+*{
+    margin: 0px ;
+    padding: 0px ;
+    box-sizing: border-box;
+
+}
+body{
+    background-image: url(https://images.pexels.com/photos/9227672/pexels-photo-9227672.jpeg?auto=compress&cs=tinysrgb&w=600);
+
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px ;
+
+}
+.sound{
+    margin-left: 20px ;
+    font-size: 25px ;
+    color: blue;
+    font-weight: 800;
+}
+ul{
+    display: flex;
+    gap: 30px ;
+    margin-right: 40px ;
+    list-style: none;
+    font-size: 25px ;
+
+  
+}
+.heroscection{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 250px ;
+}
+.real{
+    margin-left: 50px ;
+    color: teal;
+
+    font-size: 40px ;
+    font-weight: 800;
+}
+.rightsection{
+    display: flex;
+    margin-right: 50px ;
+    gap: 10px ;
+    font-size: 20px ;
+}
+
